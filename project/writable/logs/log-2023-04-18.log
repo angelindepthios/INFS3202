@@ -1,0 +1,48 @@
+CRITICAL - 2023-04-18 14:36:42 --> Undefined variable $title
+in APPPATH/Controllers/Forum.php on line 19.
+ 1 APPPATH/Controllers/Forum.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Forum->upload_multiple()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 08:23:53 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Mahasiswa.php(11): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 08:24:46 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Mahasiswa.php(11): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 08:24:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 882.
+ 1 SYSTEMPATH/Model.php(642): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Mahasiswa.php(11): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 15:09:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getCompiledSelect()
+in APPPATH/Models/MahasiswaModel.php on line 21.
+ 1 APPPATH/Controllers/Mahasiswa.php(21): App\Models\MahasiswaModel->getLimit()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Mahasiswa->test()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-18 15:11:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getCompiledSelect()
+in APPPATH/Models/MahasiswaModel.php on line 21.
+ 1 APPPATH/Controllers/Mahasiswa.php(21): App\Models\MahasiswaModel->getLimit()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Mahasiswa->test()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
